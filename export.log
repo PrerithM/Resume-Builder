@@ -1,0 +1,18 @@
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+iOS node_modules\expo\AppEntry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Android node_modules\expo\AppEntry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+iOS Bundling failed 2560ms node_modules\expo\AppEntry.js (1 module)
+SyntaxError: node_modules\expo\AppEntry.js: [BABEL] C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\expo\AppEntry.js: Cannot find module 'react-native-worklets/plugin'
+Require stack:
+- C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\react-native-reanimated\plugin\index.js
+- C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\babel-preset-expo\build\index.js
+- C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\@babel\core\lib\config\files\module-types.js
+- C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\@babel\core\lib\config\files\configuration.js
+- C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\@babel\core\lib\config\files\index.js
+- C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\@babel\core\lib\index.js
+- C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\expo\node_modules\@expo\metro-config\build\transform-worker\metro-transform-worker.js
+- C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\expo\node_modules\@expo\metro-config\build\transform-worker\supervising-transform-worker.js
+- C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\@expo\metro\node_modules\metro\src\DeltaBundler\Worker.flow.js
+- C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\@expo\metro\node_modules\metro\src\DeltaBundler\Worker.js
+- C:\Users\Prerith.M\Downloads\Resume Builder\node_modules\jest-worker\build\workers\processChild.js (While processing: "C:\\Users\\Prerith.M\\Downloads\\Resume Builder\\node_modules\\babel-preset-expo\\build\\index.js")
