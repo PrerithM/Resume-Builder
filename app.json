@@ -25,8 +25,9 @@
       },
       "package": "com.profilebuilder.app",
       "permissions": [
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "web": {
@@ -39,6 +40,11 @@
           "photosPermission": "This app uses your photo library to let you select a profile picture."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a1c5664c-f2ec-45a1-8f72-d215a43a0433"
+      }
+    }
   }
 }
